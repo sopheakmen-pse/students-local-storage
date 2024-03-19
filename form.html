@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <a href="index.html" class="button">Back</a>
+        <div class="header">
+            <h1>Student</h1>
+            <p>Add new student to local storage</p>
+        </div>
+        <form id="addStudentForm" class="form">
+            <div class="form-control">
+                <label for="fullname">Fullname:</label>
+                <input type="text" id="fullname" name="fullname">
+            </div>
+            <div class="form-control">
+                <label for="class">Class:</label>
+                <input type="text" id="class" name="class">
+            </div>
+            <div class="form-control">
+                <label for="gender">Gender:</label>
+                <input type="text" id="gender" name="gender">
+            </div>
+            <div class="form-control">
+                <label for="age">Age:</label>
+                <input type="text" id="age" name="age">
+            </div>
+            <button class="button" type="submit">Add Student</button>
+        </form>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="js/index.js"></script>
+    <script src="js/addStudent.js"></script>
+</body>
+
+</html>
